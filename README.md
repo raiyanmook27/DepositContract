@@ -7,3 +7,7 @@ Create a Deposit contract which:
 * Owner can send amount
 * Upon sending, the contract self-destructs with the total amount in the contract
 * Use modifiers where it is appropriate. Add appropriate events for the functions.
+
+
+
+# Testing
