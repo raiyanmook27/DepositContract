@@ -1,7 +1,7 @@
 # DepositContract
 Create a Deposit contract which:
 
-Stores the owner of the contract
+* Stores the owner of the contract
 People can deposit ethers in the contract
 People can get the balance of the contract
 Owner can send amount
