@@ -5,7 +5,7 @@ async function main() {
   //const [deployer] = await ethers.Signer;
 
   //console.log("Deploying contract with the accounts:", deployer.address);
-
+3:52 PM 8/8/20223:52 PM 8/8/20223:52 PM 8/8/20223:52 PM 8/8/2022
   //   console.
   //   await verify(fundMe.address, args);
 

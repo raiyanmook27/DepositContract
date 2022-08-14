@@ -33,7 +33,7 @@ contract Deposit {
      * caller is the owner of the contract.
      */
     modifier OnlyOwner() {
-        /// @dev require that the current caller is te owner.
+        /// @dev require that the current caller is the owner.
         require(msg.sender == OWNER, "Not an authorized owner");
         _;
     }
@@ -88,5 +88,9 @@ contract Deposit {
         console.log("Contract Killed");
         /// @dev emit if successful
         emit AfterContractKilled(true);
+    }
+
+    function getOwner() external view returns (address) {
+        return OWNER;
     }
 }
